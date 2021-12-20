@@ -68,7 +68,7 @@ cd pdfparser
 pip install cython
 POPPLER_ROOT=poppler_src python3 setup.py install
 #test that it works
-python tests/dump_file.py test_docs/test1.pdf
+python3 tests/dump_file.py test_docs/test1.pdf
 ```
 
 ### Debian like -  system wide libpoppler 
