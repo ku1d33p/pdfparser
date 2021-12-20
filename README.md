@@ -1,6 +1,6 @@
 #pdfparser
 
-[![Build Status](https://travis-ci.org/izderadicka/pdfparser.svg?branch=master)](https://travis-ci.org/izderadicka/pdfparser)
+[![Build Status](https://travis-ci.org/ku1d33p/pdfparser.svg?branch=master)](https://travis-ci.org/ku1d33p/pdfparser)
 
 Python binding for libpoppler - focused on text extraction from PDF documents.
 
@@ -36,14 +36,14 @@ Install cython
 
 Install the repo
     
-    pip install git+https://github.com/izderadicka/pdfparser
+    pip install git+https://github.com/ku1d33p/pdfparser
 
 ### CentOS 7 - self compiled method
 
 Clone this repo and enter into the root folder
 
     cd /git/repos/
-    git clone https://github.com/izderadicka/pdfparser.git
+    git clone https://github.com/ku1d33p/pdfparser.git
     cd pdfparser
 
 Clone the poppler repo and install (similar to build_poppler.sh)
@@ -62,7 +62,7 @@ Clone the poppler repo and install (similar to build_poppler.sh)
 ### Debian like - self compiled method (with local poppler library)
  
 ```
-git clone --depth 1 https://github.com/izderadicka/pdfparser.git
+git clone --depth 1 https://github.com/ku1d33p/pdfparser.git
 cd pdfparser
 ./build_poppler.sh
 pip install cython
@@ -76,13 +76,13 @@ python tests/dump_file.py test_docs/test1.pdf
 sudo apt-get update
 sudo apt-get install -y libpoppler-private-dev libpoppler-cpp-dev
 pip install cython
-pip install git+https://github.com/izderadicka/pdfparser
+pip install git+https://github.com/ku1d33p/pdfparser
 ```
 
 ### Mac OS
 ```
 pip install cython
-pip install git+https://github.com/izderadicka/pdfparser
+pip install git+https://github.com/ku1d33p/pdfparser
 ```
 
 ## Usage
